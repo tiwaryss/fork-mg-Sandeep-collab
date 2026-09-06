@@ -1,12 +1,12 @@
-function a() {
-  var b = 10;  
-  c();
 
-  function c() {
-    var b = 100;
-    console.log(b);
-  }
-}
+console.log(b);
 
-a();
+
+let a;
+a=10;
+console.log(a);
+
+var b = 15;
+
+console.log(a);
 console.log(b);
