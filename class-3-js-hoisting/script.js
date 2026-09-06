@@ -2,6 +2,7 @@ function a() {
   c();
 
   function c() {
+    var b = 100;
     console.log(b);
   }
 }
@@ -9,3 +10,4 @@ function a() {
 var b = 10;
 
 a();
+console.log(b);
