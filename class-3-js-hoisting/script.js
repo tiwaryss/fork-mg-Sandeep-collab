@@ -1,13 +1,7 @@
-var n = 2;
+getName();
+console.log(x);
+//var x = 7;
 
-console.log(square)
-
-var square2 = square(n);
-var square4 = square(4);
-
-function square (num){
-    var ans = num*num;
-    return ans;
+function getName() {
+  console.log("Hello, my name is Sandeep");
 }
-
-
